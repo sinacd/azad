@@ -1,0 +1,173 @@
+:root {
+    --primary-color:  #2056ae;
+}
+
+
+
+body {
+    font-family: 'Iranian Sans', Tahoma;
+    color: #fff;
+    line-height: 1;
+    direction: rtl;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+   
+    height: 100%;
+}
+.navbar .flex {
+    justify-content: space-between;
+}
+
+.navbar {
+    
+    background-color: var(--primary-color);
+    height: 70px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+}
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 4px;
+    padding-left: 4px;
+}
+
+
+.navbar li {
+    padding: 5px 7px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+}
+ /*  -------------------------- */
+.container {
+    display: flex;
+    
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.navbar input {
+    height: 25px;
+    width: 70px;
+    margin: 5px 1px 0 0 ;
+}
+.languages {
+    display: flex;
+    margin: 10px 0;
+    margin-right: 80px;
+}
+.languages a {
+    
+    margin: 0px 5px;
+}
+.social {
+    display: flex;
+    margin-top: 5px;
+    margin-right: 40px;
+    margin-left: 100px;
+}
+.social a {
+    margin: 0 5px;
+}
+.navbar .fa-search {
+    border: 1.5px #fff solid ;
+    margin: 0 ;
+    padding: 2px;
+    border-radius: 5px;
+
+   
+}
+.search-bar {
+    display: flex;
+    position: relative;
+    margin: 0 0 0 60px;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    align-items: flex-end;
+    
+    
+}
+.search-bar a{
+ 
+    margin: 0;
+    padding: 0;
+    
+}
+
+.tooltip input{
+ opacity: 0;
+width: 10px;
+padding: 1px 3px;
+transition: 0.5s ;
+}
+.navbar .search-bar:hover .tooltip input{
+ opacity: 1;
+width: 200px;
+}
+/* coulda use pointer event */
+
+
+p {
+    color: black;
+}
+
+
+.navbar nav a {
+    position: relative;
+}
+
+.navbar nav a:before {
+    content: '';
+    height: 11px;
+    width: 11px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-bottom: 3px #fff solid;
+    border-right: 3px #fff solid;
+    opacity: 0  ;
+    transition: 0.5s;
+}  
+ .navbar nav a:hover:before {
+    opacity: 1  ;
+    transform: translate(9px, 9px);
+}  
+.navbar nav a:after {
+    content: '';
+    bottom: -3px;
+    left: 9px;
+    height: 12px;
+    width: 11px;
+    position: absolute;
+    border-top: 3px #fff solid;
+    border-left: 3px #fff solid;
+    opacity: 0  ;
+    transition: 0.4s;
+
+}  
+
+.navbar nav a:hover:after {
+    opacity: 1  ;
+    transform: translate(-18px, -9px);
+}  
+
+ 
