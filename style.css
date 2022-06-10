@@ -619,10 +619,123 @@ margin: 0;
 }
 
 /* ++++++++++++++++++++++++++++++++++++++++++++ */
+
+.bg-dark,.btn-dark {
+  color:  #fff;
+  background-color: #333333;
+}   
+.footer {
+  margin-top: 0px;
+  padding-top: 50px;
+}
+.footer .social a{
+  margin: 0 6px;
+}
+.footer .grid {
+  align-items: center;
+  direction: rtl;
+}
+.footer .grid-4 >*:nth-child(1) a{
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 6px;
+  color: #f1f1f1b5;
+}
+.footer .grid-4 >*:nth-child(2) a{
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  padding: 6px 6px;
+  color: #f1f1f1b5;
+}
+.footer .grid-4 >*:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -20px;
+}
+.footer .grid-4 {
+  padding-bottom: 100px;
+  border-bottom: 1px #40D3DC solid;
+}
+.footer .grid-4 >*:nth-child(3){
+  grid-column: 3 / span 2;
+}
+.footer .grid-4 >*:nth-child(1) a:hover ,
+.footer .grid-4 >*:nth-child(2) a:hover 
+{
+color: #fff;
+}
+.footer .social-detail {
+  display: flex;
+  flex-direction: column;
+  padding-right: 30px;
+  padding-top: 10px;
+ padding-bottom: 25px;
+ padding-left: 10px;
+}
+.footer .social-detail a{
+  font-size: 14px;
+  color: #f1f1f1b5;
+  padding-top: 15px;
+}
+.footer .social-detail .fa {
+  padding: 0px 10px;
+}
+.footer .copy-right {
+  background-color: #fff;
+  padding: 30px;
+  color: rgb(51, 51, 51);
+  line-height: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------- */
 @media (max-width: 768px) {
   .news .grid {
     grid-template-columns:repeat(1 , 1fr) ;
   }
+  .grid-4 {
+    grid-template-columns: repeat(1,1fr);
+   
+  }
+  .footer .grid-4 >*:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    padding-bottom: 60px;
+    position: relative;
+    right: 20px;
+   
+  }
+ 
+  .footer .grid-4 >*:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    position: relative;
+    top: -20px;
+  }
+  
+  .footer .grid-4 >*:nth-child(3){
+    grid-column: 1 / span 1;
+  }
+
+
+
+
   .news .grid >*:nth-child(1)
   {
     grid-column: 1 / span 1;
@@ -715,5 +828,10 @@ margin: 0;
   opacity: 1; 
  width: 100px; 
  }
+
+
+
+
+
   }
   
