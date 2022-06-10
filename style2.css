@@ -1,46 +1,64 @@
 
 
-:root {
+:root {  display: flex;
+  flex-wrap: wrap;
+
 --primary-color: #cc0000;
 --secondery-color: #cc9000;
 
 }
-* {
+* {  display: flex;
+  flex-wrap: wrap;
+
 box-sizing: border-box;
 margin: 0;
 padding: 0;
 }
 
-html,body {
+html,body {  display: flex;
+  flex-wrap: wrap;
+
    height: 120vh;
 }
-body {
+body {  display: flex;
+  flex-wrap: wrap;
+
     font-family : 'Amiri';
     display: flex;
     flex-direction: column;
 }
-.content {
+.content {  display: flex;
+  flex-wrap: wrap;
+
     flex: 1 0 auto;
 }
 
-.container {
+.container {  display: flex;
+  flex-wrap: wrap;
+
 width: 90%;
 margin: 0 auto;
 padding: 10px;
 overflow: none;
 }
-.app-header {
+.app-header {  display: flex;
+  flex-wrap: wrap;
+
 background-color: var(--primary-color);
 height: 150px;
 box-shadow: 3px 3px 30px #888;
 }
-.app-header .logo {
+.app-header .logo {  display: flex;
+  flex-wrap: wrap;
+
 width: 300px;
 margin-bottom: -20px;
 padding-left: 5px;
 }
 
-.app-header .container {
+.app-header .container {  display: flex;
+  flex-wrap: wrap;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,14 +66,18 @@ padding-left: 5px;
     padding: 5px 10px;
 }
 
-.app-header .search {
+.app-header .search {  display: flex;
+  flex-wrap: wrap;
+
 padding: 7px;
 width: 400px;
 border: 0;
 border-radius: 7px;
 }
 
-.subheader {
+.subheader {  display: flex;
+  flex-wrap: wrap;
+
 background-color: var(--secondery-color);
 color: rgb(49, 42, 118);
 box-shadow: 1px 1px 3px rgb(123, 28, 28);
@@ -69,39 +91,55 @@ margin-bottom: 6px;
 padding: 0px 10px;
 width: 87%;
 }
-.subheader img {
+.subheader img {  display: flex;
+  flex-wrap: wrap;
+
 width: 80px;
 }
-.subheader p {
+.subheader p {  display: flex;
+  flex-wrap: wrap;
+
 margin: -5px 0px;
 }
-.grid  {
+.grid  {  display: flex;
+  flex-wrap: wrap;
+
 display: grid;
 grid-template-columns: repeat(2,1fr);
 grid-gap: 10px;
 }
-.grid .item {
+.grid .item {  display: flex;
+  flex-wrap: wrap;
+
 display: flex;
 flex-direction: column;
 border: 1px #888 solid;
 box-shadow: 1px 1px 1px #888;
 padding: 10px;
 }
-.grid p {
+.grid p {  display: flex;
+  flex-wrap: wrap;
+
 font-size: 12px;
 font-weight: bold;
 margin-bottom: 1px ;
 color: rgb(27, 59, 127);
 }
-.grid .item img {
+.grid .item img {  display: flex;
+  flex-wrap: wrap;
+
 width: 50px;
 align-self: flex-end;
 margin-bottom: -5px;
 }
-.grid h4 {
+.grid h4 {  display: flex;
+  flex-wrap: wrap;
+
 margin-bottom: 5px;
 }
-.app-footer {
+.app-footer {  display: flex;
+  flex-wrap: wrap;
+
  flex-shrink: 0;
 background-color: #888;
 color: black;
@@ -110,13 +148,17 @@ padding-top: 10px;
 padding-bottom: 10px;
 margin: 3px 0px;
 }
-.app-footer ul {
+.app-footer ul {  display: flex;
+  flex-wrap: wrap;
+
 display: flex;
 align-items: center;
 justify-content: space-around;
 list-style: none;
 }
-#splash {
+#splash {  display: flex;
+  flex-wrap: wrap;
+
     position: absolute;
     top: 0;
     left: 0;
@@ -131,33 +173,51 @@ list-style: none;
     transition: opacity 2s;
 }
 
-.loogo  {
+.loogo  {  display: flex;
+  flex-wrap: wrap;
+
 width: 450px;
 }
-#splash.fade {
+#splash.fade {  display: flex;
+  flex-wrap: wrap;
+
     opacity: 0;
 }
-#splash.delete {
+#splash.delete {  display: flex;
+  flex-wrap: wrap;
+
     z-index: -1;
 }
 
 
 
 
-@media (min-width: 768px) {
-    .grid{
+@media (min-width: 768px) {  display: flex;
+  flex-wrap: wrap;
+
+    .grid{  display: flex;
+  flex-wrap: wrap;
+
         grid-template-columns: repeat(3, 1fr);
     }
-    .grid .item img {
+    .grid .item img {  display: flex;
+  flex-wrap: wrap;
+
         width: 60px;
     }
-    .subheader {
+    .subheader {  display: flex;
+  flex-wrap: wrap;
+
         width: 100%;
     }
-    .container {
+    .container {  display: flex;
+  flex-wrap: wrap;
+
         width: 70%;
     }
-    .app-header {
+    .app-header {  display: flex;
+  flex-wrap: wrap;
+
         height: 11%;
     }
     }
