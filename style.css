@@ -364,7 +364,6 @@ p {
 
 
 
-
 .dropbtn {
  
   color: white;
@@ -406,53 +405,6 @@ p {
   display: flex;
   flex-wrap: wrap;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-wtfffffff
-
-
-.dropbtn5:hover .ddc {
-  display: flex;
-}
-
- */
-
-
-
-
-
-
 
 
 
@@ -722,11 +674,14 @@ margin: 0;
     z-index: -3  ;
   }
   .navbar {
-    position: relative;
-    left: 100px;
    
     background-color: transparent;
-}   
+} 
+.navbar::before {
+  
+  right: 10px;
+ 
+}  
  .blaknav img {
   margin-right: 50px;
   margin-top: -120px;
@@ -739,8 +694,6 @@ margin: 0;
     gap: 10px;
   }
   
-
-
 
   }
   
