@@ -689,8 +689,15 @@ color: #fff;
   color: rgb(51, 51, 51);
   line-height: 2;
 }
-
-
+.footer .map {
+ 
+  display: flex;
+  position: relative;
+  right: 0px;
+}
+#gmap_canvas {
+  width: 100%;
+}
 
 
 
@@ -828,9 +835,15 @@ color: #fff;
   opacity: 1; 
  width: 100px; 
  }
-
-
-
+ .footer .map {
+ 
+  display: flex;
+  position: relative;
+  right: 80px;
+}
+#gmap_canvas {
+  width: 70%;
+}
 
 
   }
