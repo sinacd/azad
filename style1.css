@@ -18,9 +18,17 @@
     color: var(--text-color);
     line-height: 1.5;
     text-align: justify;
-    font-size: 18.4px;
+    font-size: 17.9px;
+    font-weight: 500;
+  
 }
 
+
+
+.t16 {
+    font-size: 18px;
+    font-weight: 600;
+}
 
 
 .cubeEffect {
@@ -33,20 +41,39 @@
 .course img {
  
     width: 600px;
-    height: 90%;
+   
     align-self: flex-start;
+    float: left;
+    margin-right: 35px;
+    margin-top: 10px;
     
 }
 .course {
    
     margin-top: 30px;
     color: black;
+    border-top: 6px solid powderblue;
+    border-radius: 5px;
 }
 .course .text {
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
     align-self: flex-start;
 }
 .course h3 {
-    margin: 10px 0;
+    margin: 35px 0;
     font-size: 16px;
+    font-weight: 600;
+}
+
+.courses .grid {
+    grid-template-columns: repeat(1,1fr);
+}
+
+
+
+
+.courses .container {
+    display: flex;
+    flex-direction: column;
 }
