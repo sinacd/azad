@@ -77,3 +77,41 @@
     display: flex;
     flex-direction: column;
 }
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .course img {
+        width: 85vw;
+        margin-bottom: 20px;
+    }
+    .blaknav {
+        background-color: #184183;
+        height: 200px;
+        position: absolute;
+        top: 0;
+       
+      
+    }   
+    .blaknav .grid >*:nth-child(1) {
+        z-index: 3;
+        position: relative;
+        top: 100px;
+    
+      }
+      
+       .search-bar {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 50;
+       }
+}

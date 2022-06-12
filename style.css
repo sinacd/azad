@@ -352,6 +352,7 @@ p {
 
 .blaknav .grid >*:nth-child(1) {
   grid-column: 1 / span 1;
+  z-index: 500;
 }
 .blaknav .grid >*:nth-child(2) {
   display: flex;
