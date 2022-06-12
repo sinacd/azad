@@ -1,0 +1,52 @@
+
+:root {
+    --title-color: #2ECC71;
+    --title-color2: #3498DB;
+    --text-color: #999999;
+
+  }    
+  body {
+    background-color: #FFFFFF ;
+  }
+.title-cl {
+    color: var(--title-color);
+}
+.title-cl2 {
+    color: var(--title-color2);
+}
+.text-cl {
+    color: var(--text-color);
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 18.4px;
+}
+
+
+
+.cubeEffect {
+    margin-right: 300px;
+}
+.blaknav {
+    background-color: #184183;
+    height: 150px;
+}   
+.course img {
+ 
+    width: 600px;
+    height: 90%;
+    align-self: flex-start;
+    
+}
+.course {
+   
+    margin-top: 30px;
+    color: black;
+}
+.course .text {
+    margin-top: 20px;
+    align-self: flex-start;
+}
+.course h3 {
+    margin: 10px 0;
+    font-size: 16px;
+}
